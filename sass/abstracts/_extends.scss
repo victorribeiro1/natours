@@ -1,0 +1,8 @@
+@import "../abstracts/variables";
+%col-placeholder {
+    float: left;
+
+    &:not(:last-child) {
+        margin-right: $gutter-horizontal;
+    }
+}
